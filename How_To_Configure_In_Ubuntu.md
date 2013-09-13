@@ -24,8 +24,7 @@ Open a __terminal__:
 
 - Enable support:
 
-> >
-       $ ./configure --with-features=huge \
+>      $ ./configure --with-features=huge \
 
 >               --disable-darwin \
 
