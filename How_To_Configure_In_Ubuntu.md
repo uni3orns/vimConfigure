@@ -24,29 +24,29 @@ Open a __terminal__:
 
 - Enable support:
 
->  $ ./configure --with-features=huge \
+  $ ./configure --with-features=huge \
 
->                --disable-darwin \
+                --disable-darwin \
  
->                --disable-selinux \
+                --disable-selinux \ 
  
->                --enable-luainterp \
+                --enable-luainterp \ 
  
->                --enable-perlinterp \
+                --enable-perlinterp \ 
  
->                --enable-pythoninterp \
+                --enable-pythoninterp \ 
  
->                --enable-python3interp \
+                --enable-python3interp \ 
 
->                --enable-tclinterp \
+                --enable-tclinterp \
 
->                --enable-rubyinterp \
+                --enable-rubyinterp \
 
->                --enable-cscope \
+                --enable-cscope \
 
->                --enable-multibyte \
+                --enable-multibyte \
 
->                --enable-xim \
+                --enable-xim \
 
                 --enable-fontset \
 
