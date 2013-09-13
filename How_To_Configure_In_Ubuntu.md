@@ -3,7 +3,7 @@
 
 **__src from : https://launchpad.net/ubuntu/saucy/+source/vim__**
 
-__First__ of all you must use root permission
+__First__ of all you must use __root__ permission
 
 Open a __terminal__:
 > $cd
