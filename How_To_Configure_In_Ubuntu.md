@@ -76,11 +76,11 @@ Open a __terminal__:
 
 > ('lua') && ( (v:version == 703 && has('patch885')) || v:version >= 704 )
 
-- __Mybe__ some error with python when ":wq" the .py file:
+- __Maybe__ some error with python when ":wq" the .py file:
 
->  Vim: Caught deadly signal ABRT
->  sys.excepthook is missing
->  lost sys.stderr
->  sys.excepthook is missing
->  lost sys.stderr
+>  Vim: Caught deadly signal ABRT \
+>  sys.excepthook is missing \
+>  lost sys.stderr \
+>  sys.excepthook is missing \
+>  lost sys.stderr \
 >  Vim: Finished.
