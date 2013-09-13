@@ -19,7 +19,9 @@ Open a __terminal__:
 > $hg clone https://vim.googlecode.com/hg/ vim
 
 > $cd vim
+
 - Enable support
+
 > $./configure --with-features=huge \
               --disable-darwin \
               --disable-selinux \
@@ -34,10 +36,13 @@ Open a __terminal__:
               --enable-xim \
               --enable-fontset \
               --enable-gui=gnome2
+              
 - Vimrc should be use git
+
 > $apt-get install git
 
 - Copy vimrc to ".vimrc"
+
 > $vim .vimrc
 
 
@@ -46,7 +51,8 @@ Open a __terminal__:
 > $vim neocomplete.vim
 
 - replace "('lua') && ( (v:version == 703 && has('patch885')) )" to :
-> -('lua') && ( (v:version == 703 && has('patch885')) || v:version >= 704 )
+
+> - ('lua') && ( (v:version == 703 && has('patch885')) || v:version >= 704 )
 
 - some error with python when ":wq" the .py:
 
