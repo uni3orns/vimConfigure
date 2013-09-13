@@ -23,23 +23,23 @@ Open a __terminal__:
 > $ cd vim
 
 - Enable support:
-    
-    $ ./configure --with-features=huge "\"
-                  --disable-darwin "\"
-                  --disable-selinux "\" 
-                  --enable-luainterp "\" 
-                  --enable-perlinterp "\" 
-                  --enable-pythoninterp "\" 
-                  --enable-python3interp "\" 
-                  --enable-tclinterp "\"
-                  --enable-rubyinterp "\"
-                  --enable-cscope "\"
-                  --enable-multibyte "\"
-                  --enable-xim "\"
-                  --enable-fontset "\"
+      $ ./configure --with-features=huge \
+                  --disable-darwin \
+                  --disable-selinux \ 
+                  --enable-luainterp \ 
+                  --enable-perlinterp \ 
+                  --enable-pythoninterp \ 
+                  --enable-python3interp \ 
+                  --enable-tclinterp \
+                  --enable-rubyinterp \
+                  --enable-cscope \
+                  --enable-multibyte \
+                  --enable-xim \
+                  --enable-fontset \
                   --enable-gui=gnome2
-    $ make
-    $ make install
+      $ make
+      $ make install
+
     
 - Vimrc should be use git
 
