@@ -23,7 +23,7 @@ Open a __terminal__:
 > $ cd vim
 
 - Enable support:
-
+    \
     $ ./configure --with-features=huge \
                   --disable-darwin \
                   --disable-selinux \ 
@@ -39,8 +39,8 @@ Open a __terminal__:
                   --enable-fontset \
                   --enable-gui=gnome2
     $ make
-    
     $ make install
+    \
 - Vimrc should be use git
 
 > $ apt-get install git
