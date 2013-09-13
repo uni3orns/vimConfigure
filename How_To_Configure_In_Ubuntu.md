@@ -12,9 +12,9 @@ Open a __terminal__:
 
 > $ apt-get install debhelper dpkg-dev libacl1-dev libgnomeui-dev \
 
->   libgpmg1-dev libgtk2.0-dev liblua5.2-dev libperl-dev libselinux1-dev \
+>    libgpmg1-dev libgtk2.0-dev liblua5.2-dev libperl-dev libselinux1-dev \
  
->   libtinfo-dev libxaw7-dev libxpm-dev libxt-dev lua5.2 python-dev ruby ruby-dev tcl-dev
+>    libtinfo-dev libxaw7-dev libxpm-dev libxt-dev lua5.2 python-dev ruby ruby-dev tcl-dev
 
 - Get vim
 
@@ -25,18 +25,31 @@ Open a __terminal__:
 - Enable support:
 
 >  $ ./configure --with-features=huge \
-                --disable-darwin \
-                --disable-selinux \
-                --enable-luainterp \
-                --enable-perlinterp \
-                --enable-pythoninterp \
-                --enable-python3interp \
-                --enable-tclinterp \
-                --enable-rubyinterp \
-                --enable-cscope \
-                --enable-multibyte \
-                --enable-xim \
+
+>                --disable-darwin \
+ 
+>                --disable-selinux \
+ 
+>                --enable-luainterp \
+ 
+>                --enable-perlinterp \
+ 
+>                --enable-pythoninterp \
+ 
+>                --enable-python3interp \
+
+>                --enable-tclinterp \
+
+>                --enable-rubyinterp \
+
+>                --enable-cscope \
+
+>                --enable-multibyte \
+
+>                --enable-xim \
+
                 --enable-fontset \
+
                 --enable-gui=gnome2
               
 - Vimrc should be use git
