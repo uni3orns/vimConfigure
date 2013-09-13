@@ -10,45 +10,45 @@ Open a __terminal__:
 
 - The lib of VIM Build dependencies
 
-> $apt-get install debhelper dpkg-dev libacl1-dev libgnomeui-dev \
-> libgpmg1-dev libgtk2.0-dev liblua5.2-dev libperl-dev libselinux1-dev \
-> libtinfo-dev libxaw7-dev libxpm-dev libxt-dev lua5.2 python-dev ruby ruby-dev tcl-dev
+> $ apt-get install debhelper dpkg-dev libacl1-dev libgnomeui-dev \
+    libgpmg1-dev libgtk2.0-dev liblua5.2-dev libperl-dev libselinux1-dev \
+    libtinfo-dev libxaw7-dev libxpm-dev libxt-dev lua5.2 python-dev ruby ruby-dev tcl-dev
 
 - Get vim
 
-> $hg clone https://vim.googlecode.com/hg/ vim
+> $ hg clone https://vim.googlecode.com/hg/ vim
 
-> $cd vim
+> $ cd vim
 
 - Enable support
 
-> $./configure --with-features=huge \
->              --disable-darwin \
->              --disable-selinux \
->              --enable-luainterp \
->              --enable-perlinterp \
->              --enable-pythoninterp \
->              --enable-python3interp \
->              --enable-tclinterp \
->              --enable-rubyinterp \
->              --enable-cscope \
->              --enable-multibyte \
->              --enable-xim \
->              --enable-fontset \
->              --enable-gui=gnome2
+  $ ./configure --with-features=huge \
+                --disable-darwin \
+                --disable-selinux \
+                --enable-luainterp \
+                --enable-perlinterp \
+                --enable-pythoninterp \
+                --enable-python3interp \
+                --enable-tclinterp \
+                --enable-rubyinterp \
+                --enable-cscope \
+                --enable-multibyte \
+                --enable-xim \
+                --enable-fontset \
+                --enable-gui=gnome2
               
 - Vimrc should be use git
 
-> $apt-get install git
+> $ apt-get install git
 
 - Copy vimrc to ".vimrc"
 
-> $vim .vimrc
+> $ vim .vimrc
 
 
-> $cd ~/.vim/bundle/neocomplete.vim/plugin/
+> $ cd ~/.vim/bundle/neocomplete.vim/plugin/
 
-> $vim neocomplete.vim
+> $ vim neocomplete.vim
 
 - replace "('lua') && ( (v:version == 703 && has('patch885')) )" to :
 
@@ -56,9 +56,9 @@ Open a __terminal__:
 
 - some error with python when ":wq" the .py:
 
-> Vim: Caught deadly signal ABRT
-> sys.excepthook is missing
-> lost sys.stderr
-> sys.excepthook is missing
-> lost sys.stderr
-> Vim: Finished.
+  Vim: Caught deadly signal ABRT
+  sys.excepthook is missing
+  lost sys.stderr
+  sys.excepthook is missing
+  lost sys.stderr
+  Vim: Finished.
