@@ -78,9 +78,14 @@ Open a __terminal__:
 
 - __Maybe__ some error with python when ":wq" the .py file:
 
->  Vim: Caught deadly signal ABRT \
->  sys.excepthook is missing \
->  lost sys.stderr \
->  sys.excepthook is missing \
->  lost sys.stderr \
+>  Vim: Caught deadly signal ABRT
+
+>  sys.excepthook is missing 
+
+>  lost sys.stderr 
+
+>  sys.excepthook is missing 
+
+>  lost sys.stderr 
+
 >  Vim: Finished.
