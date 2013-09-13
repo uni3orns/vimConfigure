@@ -20,7 +20,7 @@ Open a __terminal__:
 
 > $ cd vim
 
-- Enable support
+- Enable support:
 
   $ ./configure --with-features=huge \
                 --disable-darwin \
